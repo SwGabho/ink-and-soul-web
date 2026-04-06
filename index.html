@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink & Soul Studio Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ink & Soul Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Your Creativity, Our Canvas</h2>
+        <p>Welcome to Ink & Soul Studio, where we turn your ideas into masterpieces.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Portfolio Item 1">
+            <img src="image2.jpg" alt="Portfolio Item 2">
+            <img src="image3.jpg" alt="Portfolio Item 3">
+            <!-- More images can be added here -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Ink & Soul, we are passionate about transforming your vision into reality.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label for="file">Upload a file:</label>
+            <input type="file" id="file" name="file">
+
+            <button type="submit">Submit</button>
+        </form>
+        <a href="https://wa.me/your-whatsapp-number" class="whatsapp-button">WhatsApp Us</a>
+    </section>
+
+    <section id="map">
+        <h2>Our Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093434!2d144.95373631531655!3d-37.817209979751604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11c3c9%3A0x5045675218ceed30!2sYour%20Location!5e0!3m2!1sen!2sau!4v1618886875237!5m2!1sen!2sau" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ink & Soul Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
